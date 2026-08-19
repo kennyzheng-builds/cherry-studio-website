@@ -62,7 +62,7 @@ interface VersionDataStore {
   subscribe: (listener: () => void) => () => void
 }
 
-const releasesURL = import.meta.env.VITE_RELEASES_URL?.trim() || 'https://releases.cherry-ai.com'
+const releasesURL = import.meta.env.VITE_RELEASES_URL?.trim() || 'https://releases.cherryai.com.cn'
 const versionDataCachePrefix = 'cherry-version-data:v2'
 
 function getReleaseRegion(): 'cn' | 'global' {
