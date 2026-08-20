@@ -38,10 +38,7 @@ const flagshipModels: FlagshipModel[] = [
   {
     nameKey: 'flagship_models.featured.name',
     descriptionKey: 'flagship_models.featured.description',
-    href: {
-      zh: 'https://docs.bigmodel.cn/cn/guide/models/text/glm-5.3',
-      en: 'https://developers.openai.com/api/docs/models/gpt-5.6-sol'
-    },
+    href: 'https://docs.bigmodel.cn/cn/guide/models/text/glm-5.3',
     features: [
       'flagship_models.featured.feature1',
       'flagship_models.featured.feature2',

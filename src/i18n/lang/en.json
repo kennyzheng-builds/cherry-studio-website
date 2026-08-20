@@ -357,11 +357,11 @@
       "feature3": "Agent + Reasoning"
     },
     "featured": {
-      "name": "GPT-5.6 Sol",
-      "description": "OpenAI's frontier model for complex professional work, with a 1.05M-token context window, 128K maximum output, and advanced reasoning for demanding coding workflows.",
-      "feature1": "1.05M Context",
+      "name": "GLM-5.3",
+      "description": "Zhipu AI's latest flagship model is built for complex software engineering and Agent tasks, with a 1M-token context window, up to 128K output, and stronger coding and long-horizon performance than GLM-5.2.",
+      "feature1": "1M Context",
       "feature2": "128K Max Output",
-      "feature3": "Reasoning + Coding"
+      "feature3": "Coding + Agent"
     },
     "cta": "Continuously integrating future flagships…"
   },
