@@ -350,11 +350,11 @@
     "title": "Day-One Flagship Support",
     "subtitle": "Latest flagship models through partners like CherryIN, OpenRouter, and SiliconFlow",
     "deepseek": {
-      "name": "DeepSeek V4",
-      "description": "DeepSeek's newest open-source flagship. A 1M-token context handles whole codebases or long documents in one shot, with coding, reasoning and long-context capabilities closing in on top closed models — strong value for heavy daily use.",
+      "name": "DeepSeek V4 Pro",
+      "description": "DeepSeek's latest flagship release brings major Agent and production-workload gains, with a 1M-token context window, up to 384K output, flexible reasoning effort, and native OpenAI Responses API support.",
       "feature1": "1M Context",
-      "feature2": "Open Source",
-      "feature3": "Code + Reasoning"
+      "feature2": "384K Max Output",
+      "feature3": "Agent + Reasoning"
     },
     "featured": {
       "name": "GPT-5.6 Sol",

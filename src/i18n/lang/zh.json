@@ -348,11 +348,11 @@
     "title": "旗舰模型，首发适配",
     "subtitle": "通过 CherryIN、OpenRouter、硅基流动 等合作伙伴，使用最新旗舰模型",
     "deepseek": {
-      "name": "DeepSeek V4",
-      "description": "DeepSeek 最新一代开源旗舰，1M 超长上下文可一次性处理整个代码库或长文档；代码、推理与长文本能力已逼近闭源顶配，是复杂任务的高性价比首选。",
+      "name": "DeepSeek V4 Pro",
+      "description": "DeepSeek 最新旗舰正式版，Agent 能力与生产环境表现显著增强；支持 1M 上下文、最高 384K 输出和三档思考强度，并原生支持 OpenAI Responses API。",
       "feature1": "1M 上下文",
-      "feature2": "开源",
-      "feature3": "代码 + 推理"
+      "feature2": "384K 最大输出",
+      "feature3": "Agent + 推理"
     },
     "featured": {
       "name": "GLM-5.3",

@@ -22,7 +22,10 @@ const flagshipModels: FlagshipModel[] = [
   {
     nameKey: 'flagship_models.deepseek.name',
     descriptionKey: 'flagship_models.deepseek.description',
-    href: 'https://api-docs.deepseek.com/news/news260424',
+    href: {
+      zh: 'https://api-docs.deepseek.com/zh-cn/news/news260813',
+      en: 'https://api-docs.deepseek.com/news/news260813'
+    },
     features: [
       'flagship_models.deepseek.feature1',
       'flagship_models.deepseek.feature2',
