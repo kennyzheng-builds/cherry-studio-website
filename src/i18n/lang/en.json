@@ -356,12 +356,12 @@
       "feature2": "Open Source",
       "feature3": "Code + Reasoning"
     },
-    "gpt": {
-      "name": "GPT-5.5",
-      "description": "OpenAI's newest flagship — sharper and more proactive than GPT-5. With 1M context and native cross-tool execution, it autonomously chains coding, research and document work into finished tasks.",
-      "feature1": "1M Context",
-      "feature2": "Autonomous Agent",
-      "feature3": "Code + Research"
+    "featured": {
+      "name": "GPT-5.6 Sol",
+      "description": "OpenAI's frontier model for complex professional work, with a 1.05M-token context window, 128K maximum output, and advanced reasoning for demanding coding workflows.",
+      "feature1": "1.05M Context",
+      "feature2": "128K Max Output",
+      "feature3": "Reasoning + Coding"
     },
     "cta": "Continuously integrating future flagships…"
   },

@@ -354,12 +354,12 @@
       "feature2": "开源",
       "feature3": "代码 + 推理"
     },
-    "gpt": {
-      "name": "GPT-5.5",
-      "description": "OpenAI 最新一代旗舰，比上代更聪明、更主动；1M 上下文配合原生跨工具调用，自主串起代码、研究与文档处理，把复杂任务一气呵成。",
+    "featured": {
+      "name": "GLM-5.3",
+      "description": "智谱最新旗舰模型，面向复杂软件工程与 Agent 任务；支持 1M 上下文与 128K 最大输出，编程和长程任务能力较 GLM-5.2 全面提升。",
       "feature1": "1M 上下文",
-      "feature2": "自主 Agent",
-      "feature3": "代码 + 研究"
+      "feature2": "128K 最大输出",
+      "feature3": "编程 + Agent"
     },
     "cta": "持续接入未来新模型…"
   },

@@ -11,7 +11,7 @@ import { cn } from '@/lib/utils'
 interface FlagshipModel {
   nameKey: string
   descriptionKey: string
-  href: string
+  href: string | { en: string; zh: string }
   features: string[]
   icon: typeof Zap
   iconColor: string
@@ -33,10 +33,17 @@ const flagshipModels: FlagshipModel[] = [
     iconBg: 'bg-amber-500/10'
   },
   {
-    nameKey: 'flagship_models.gpt.name',
-    descriptionKey: 'flagship_models.gpt.description',
-    href: 'https://openai.com/index/introducing-gpt-5-5/',
-    features: ['flagship_models.gpt.feature1', 'flagship_models.gpt.feature2', 'flagship_models.gpt.feature3'],
+    nameKey: 'flagship_models.featured.name',
+    descriptionKey: 'flagship_models.featured.description',
+    href: {
+      zh: 'https://docs.bigmodel.cn/cn/guide/models/text/glm-5.3',
+      en: 'https://developers.openai.com/api/docs/models/gpt-5.6-sol'
+    },
+    features: [
+      'flagship_models.featured.feature1',
+      'flagship_models.featured.feature2',
+      'flagship_models.featured.feature3'
+    ],
     icon: Sparkles,
     iconColor: 'text-purple-500',
     iconBg: 'bg-purple-500/10'
@@ -91,7 +98,7 @@ const FlagshipModelsSection: FC = () => {
               {flagshipModels.map((model) => (
                 <a
                   key={model.nameKey}
-                  href={model.href}
+                  href={typeof model.href === 'string' ? model.href : model.href[isZh ? 'zh' : 'en']}
                   target="_blank"
                   rel="noopener noreferrer"
                   className={cn(
