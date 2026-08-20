@@ -268,7 +268,7 @@
     "subtitle": "一站式 AI 助手平台，让 AI 触手可及",
     "multi_model": {
       "title": "多模型自由切换",
-      "description": "支持 <highlight>50+ AI 服务商</highlight>，包括 OpenAI、Claude、Gemini 等云端模型，以及 Ollama、LM Studio 等本地模型，<highlight>一个客户端满足所有需求</highlight>。"
+      "description": "支持 <highlight>50+ AI 服务商</highlight>，包括 DeepSeek、智谱 GLM、Kimi、通义千问等国产云端模型，也支持本地/开源模型，<highlight>一个客户端满足所有需求</highlight>。"
     },
     "assistants": {
       "title": "300+ 智能助手",
@@ -308,7 +308,7 @@
     "items": [
       {
         "question": "Cherry Studio 是什么？",
-        "answer": "Cherry Studio 是一款跨平台的 AI 对话客户端，支持 Windows、macOS 和 Linux。它集成了 300+ 主流 AI 模型，包括 OpenAI、Claude、Gemini 等云端模型，也支持通过 Ollama 和 LM Studio 使用本地模型。除了 AI 助手之外，Cherry Studio 还具备强大的 Agent 智能体能力——自主思考、规划和行动的 AI。给 Agent 一个目标，它会自动推理问题、拆解步骤、调用工具并独立执行，同时您始终保持控制权。"
+        "answer": "Cherry Studio 是一款跨平台的 AI 对话客户端，支持 Windows、macOS 和 Linux。它集成了 300+ 主流 AI 模型，包括 DeepSeek、智谱 GLM、Kimi、通义千问等国产云端模型，也支持本地/开源模型完全离线运行。除了 AI 助手之外，Cherry Studio 还具备强大的 Agent 智能体能力——自主思考、规划和行动的 AI。给 Agent 一个目标，它会自动推理问题、拆解步骤、调用工具并独立执行，同时您始终保持控制权。"
       },
       {
         "question": "Cherry Studio 是免费的吗？",
@@ -320,7 +320,7 @@
       },
       {
         "question": "Cherry Studio 支持哪些 AI 模型？",
-        "answer": "Cherry Studio 支持 50+ AI 服务商，包括 OpenAI (GPT-4, GPT-4o)、Anthropic (Claude 3.5)、Google (Gemini)、DeepSeek、Kimi、通义千问等众多模型。同时支持通过 Ollama 和 LM Studio 使用本地模型，实现完全离线运行。"
+        "answer": "Cherry Studio 支持 50+ AI 服务商，包括 DeepSeek、智谱 GLM、Kimi、通义千问等众多国产模型。同时支持本地/开源模型，实现完全离线运行。"
       },
       {
         "question": "知识库功能是什么？",
@@ -346,7 +346,7 @@
   },
   "flagship_models": {
     "title": "旗舰模型，首发适配",
-    "subtitle": "通过 CherryIN、OpenRouter、硅基流动 等合作伙伴，使用最新旗舰模型",
+    "subtitle": "通过 CherryIN、硅基流动 等国内合作伙伴，使用最新旗舰模型",
     "deepseek": {
       "name": "DeepSeek V4",
       "description": "DeepSeek 最新一代开源旗舰，1M 超长上下文可一次性处理整个代码库或长文档；代码、推理与长文本能力已逼近闭源顶配，是复杂任务的高性价比首选。",
@@ -354,12 +354,12 @@
       "feature2": "开源",
       "feature3": "代码 + 推理"
     },
-    "gpt": {
-      "name": "GPT-5.5",
-      "description": "OpenAI 最新一代旗舰，比上代更聪明、更主动；1M 上下文配合原生跨工具调用，自主串起代码、研究与文档处理，把复杂任务一气呵成。",
-      "feature1": "1M 上下文",
-      "feature2": "自主 Agent",
-      "feature3": "代码 + 研究"
+    "kimi": {
+      "name": "Kimi K3",
+      "description": "Kimi 迄今能力最强的旗舰模型，2.8 万亿参数，原生支持视觉理解与 1M 超长上下文；面向长程编程、知识工作与深度推理，为复杂任务而生。",
+      "feature1": "2.8T 参数",
+      "feature2": "开源",
+      "feature3": "长程编程 + 视觉"
     },
     "cta": "持续接入未来新模型…"
   },

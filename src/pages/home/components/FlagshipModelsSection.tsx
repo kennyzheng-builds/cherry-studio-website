@@ -33,10 +33,10 @@ const flagshipModels: FlagshipModel[] = [
     iconBg: 'bg-amber-500/10'
   },
   {
-    nameKey: 'flagship_models.gpt.name',
-    descriptionKey: 'flagship_models.gpt.description',
-    href: 'https://openai.com/index/introducing-gpt-5-5/',
-    features: ['flagship_models.gpt.feature1', 'flagship_models.gpt.feature2', 'flagship_models.gpt.feature3'],
+    nameKey: 'flagship_models.kimi.name',
+    descriptionKey: 'flagship_models.kimi.description',
+    href: 'https://platform.kimi.com/docs/guide/kimi-k3-quickstart',
+    features: ['flagship_models.kimi.feature1', 'flagship_models.kimi.feature2', 'flagship_models.kimi.feature3'],
     icon: Sparkles,
     iconColor: 'text-purple-500',
     iconBg: 'bg-purple-500/10'

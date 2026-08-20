@@ -270,7 +270,7 @@
     "subtitle": "Your all-in-one AI assistant platform, making AI accessible to everyone",
     "multi_model": {
       "title": "Multi-Model Freedom",
-      "description": "Support <highlight>50+ AI providers</highlight> including OpenAI, Claude, Gemini cloud models, plus local models via Ollama and LM Studio. <highlight>One client for all your AI needs</highlight>."
+      "description": "Support <highlight>50+ AI providers</highlight> including DeepSeek, Zhipu GLM, Kimi, Qwen and other leading domestic cloud models, plus local/open-source models. <highlight>One client for all your AI needs</highlight>."
     },
     "assistants": {
       "title": "300+ Smart Assistants",
@@ -310,7 +310,7 @@
     "items": [
       {
         "question": "What is Cherry Studio?",
-        "answer": "Cherry Studio is a cross-platform desktop client for AI chatbots, supporting Windows, macOS, and Linux. It integrates 300+ AI models from major providers like OpenAI, Claude, Gemini, and supports local models via Ollama and LM Studio. Beyond AI Assistants, Cherry Studio features powerful Agent capabilities - autonomous AI that can think, plan, and act. Give Agent a goal, and it will reason through problems, break them into steps, call the right tools, and execute independently while you stay in control."
+        "answer": "Cherry Studio is a cross-platform desktop client for AI chatbots, supporting Windows, macOS, and Linux. It integrates 300+ AI models from leading domestic providers like DeepSeek, Zhipu GLM, Kimi, and Qwen, and supports local/open-source models for fully offline use. Beyond AI Assistants, Cherry Studio features powerful Agent capabilities - autonomous AI that can think, plan, and act. Give Agent a goal, and it will reason through problems, break them into steps, call the right tools, and execute independently while you stay in control."
       },
       {
         "question": "Is Cherry Studio free?",
@@ -322,7 +322,7 @@
       },
       {
         "question": "Which AI models does Cherry Studio support?",
-        "answer": "Cherry Studio supports 50+ AI providers including OpenAI (GPT-4, GPT-4o), Anthropic (Claude 3.5), Google (Gemini), DeepSeek, Kimi, Qwen, and many more. It also supports local models through Ollama and LM Studio, allowing you to run AI completely offline."
+        "answer": "Cherry Studio supports 50+ AI providers including DeepSeek, Zhipu GLM, Kimi, Qwen, and many more leading domestic models. It also supports local/open-source models, allowing you to run AI completely offline."
       },
       {
         "question": "What is the Knowledge Base feature?",
@@ -348,7 +348,7 @@
   },
   "flagship_models": {
     "title": "Day-One Flagship Support",
-    "subtitle": "Latest flagship models through partners like CherryIN, OpenRouter, and SiliconFlow",
+    "subtitle": "Latest flagship models through domestic partners like CherryIN and SiliconFlow",
     "deepseek": {
       "name": "DeepSeek V4",
       "description": "DeepSeek's newest open-source flagship. A 1M-token context handles whole codebases or long documents in one shot, with coding, reasoning and long-context capabilities closing in on top closed models — strong value for heavy daily use.",
@@ -356,12 +356,12 @@
       "feature2": "Open Source",
       "feature3": "Code + Reasoning"
     },
-    "gpt": {
-      "name": "GPT-5.5",
-      "description": "OpenAI's newest flagship — sharper and more proactive than GPT-5. With 1M context and native cross-tool execution, it autonomously chains coding, research and document work into finished tasks.",
-      "feature1": "1M Context",
-      "feature2": "Autonomous Agent",
-      "feature3": "Code + Research"
+    "kimi": {
+      "name": "Kimi K3",
+      "description": "Kimi's most capable flagship yet — 2.8T parameters with native vision understanding and a 1M-token context window, built for long-horizon coding, knowledge work and deep reasoning.",
+      "feature1": "2.8T Params",
+      "feature2": "Open Source",
+      "feature3": "Coding + Vision"
     },
     "cta": "Continuously integrating future flagships…"
   },
