@@ -1,4 +1,4 @@
-import { Laptop } from 'lucide-react'
+import { ExternalLink, Laptop } from 'lucide-react'
 import { type FC, useEffect, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 
@@ -15,6 +15,8 @@ import VersionInfo from './components/VersionInfo'
 interface DownloadPageProps {
   edition?: 'stable' | 'v1' | 'v2'
 }
+
+const CLOUD_DRIVE_DOWNLOAD_URL = 'https://pan.quark.cn/s/4044324d0ecd'
 
 const DownloadPage: FC<DownloadPageProps> = ({ edition = 'stable' }) => {
   const { t } = useTranslation()
@@ -149,6 +151,15 @@ const DownloadPage: FC<DownloadPageProps> = ({ edition = 'stable' }) => {
               loading={loading}
             />
           </div>
+
+          <a
+            href={CLOUD_DRIVE_DOWNLOAD_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-muted-foreground hover:text-foreground mt-6 inline-flex items-center gap-1.5 text-sm underline-offset-4 transition-colors hover:underline">
+            {t('download_page.cloud_drive_download')}
+            <ExternalLink className="h-3.5 w-3.5" />
+          </a>
         </div>
       </section>
       <Footer />
