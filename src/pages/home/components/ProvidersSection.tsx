@@ -46,7 +46,7 @@ const outerLogos: LogoInfo[] = [
   { src: stepfunLogo, name: 'StepFun' },
   { src: siliconcloudLogo, name: 'SiliconCloud' },
   { src: baiducloudLogo, name: 'Baidu AI Cloud' },
-  { src: giteeAiLogo, name: 'Gitee AI' },
+  { src: giteeAiLogo, name: 'Gitee AI', darkInvert: true },
   { src: modelscopeLogo, name: 'ModelScope' },
   { src: ai360Logo, name: '360 AI' },
   { src: zerooneLogo, name: '01.AI', darkInvert: true },
