@@ -1,7 +1,5 @@
 import { useEffect, useSyncExternalStore } from 'react'
 
-import { getDomainDefaultLanguage } from '@/utils/urls'
-
 export interface Asset {
   name: string
   browser_download_url: string
@@ -64,13 +62,7 @@ interface VersionDataStore {
 
 const releasesURL = import.meta.env.VITE_RELEASES_URL?.trim() || 'https://releases.cherryai.com.cn'
 const versionDataCachePrefix = 'cherry-version-data:v2'
-
-function getReleaseRegion(): 'cn' | 'global' {
-  const domainLanguage = getDomainDefaultLanguage()
-  if (domainLanguage) return domainLanguage === 'zh-CN' ? 'cn' : 'global'
-
-  return import.meta.env.VITE_SITE_LOCALE?.toLowerCase().startsWith('en') ? 'global' : 'cn'
-}
+const releaseRegion = 'global'
 
 function getMajorVersion(version: string): number | null {
   const match = version.match(/^v?(\d+)\./)
@@ -83,7 +75,7 @@ async function fetchWebsiteRelease(): Promise<ReleasePayload> {
   const response = await fetch(requestURL, {
     headers: {
       'X-Release-Channel': 'website',
-      'X-Region': getReleaseRegion()
+      'X-Region': releaseRegion
     }
   })
   if (!response.ok) {
@@ -99,7 +91,7 @@ async function fetchRetainedV1Release(): Promise<ReleasePayload> {
   const response = await fetch(requestURL, {
     headers: {
       'X-Release-Channel': 'website',
-      'X-Region': getReleaseRegion()
+      'X-Region': releaseRegion
     }
   })
   if (!response.ok) {
@@ -129,7 +121,7 @@ function isVersionData(value: unknown): value is VersionData {
 }
 
 function getVersionDataCacheKey(releaseLine: ReleaseLine): string {
-  return `${versionDataCachePrefix}:${getReleaseRegion()}:${releaseLine}`
+  return `${versionDataCachePrefix}:${releaseRegion}:${releaseLine}`
 }
 
 function readCachedVersionData(releaseLine: ReleaseLine): { versionData: VersionData; updatedAt: number } | null {
