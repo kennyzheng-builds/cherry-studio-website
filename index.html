@@ -157,12 +157,20 @@
   <script src="/theme-init.js"></script>
   <div id="root"></div>
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JTJVLD1BNN"></script>
   <script>
+    const overseasHosts = new Set(['cherryai.com', 'www.cherryai.com']);
+    const googleAnalyticsId = overseasHosts.has(window.location.hostname.toLowerCase())
+      ? 'G-FQ9WGZFVB9'
+      : 'G-JTJVLD1BNN';
+    const googleTagScript = document.createElement('script');
+    googleTagScript.async = true;
+    googleTagScript.src = `https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`;
+    document.head.appendChild(googleTagScript);
+
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-    gtag('config', 'G-JTJVLD1BNN');
+    gtag('config', googleAnalyticsId);
   </script>
   <script type="module" src="/src/main.tsx"></script>
   <!-- Dify Chatbot -->
