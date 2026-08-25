@@ -1,8 +1,6 @@
 import { type FC, useEffect, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 
-import { cn } from '@/lib/utils'
-
 import gitcodeIcon from '@/assets/images/icons/gitcode.svg'
 import gitcodeColorIcon from '@/assets/images/icons/gitcode-color.svg'
 import githubIcon from '@/assets/images/icons/github.svg'
@@ -16,6 +14,7 @@ import xColorIcon from '@/assets/images/icons/x-color.svg'
 import iGQR from '@/assets/images/resource/instagram.png'
 import { fetchChannelData, getRandomWechatQRCode } from '@/assets/js/data'
 import { Button } from '@/components/ui/button'
+import { cn } from '@/lib/utils'
 
 const CommunitySection: FC = () => {
   const { t, i18n } = useTranslation()
@@ -183,13 +182,6 @@ const CommunitySection: FC = () => {
             <Button variant="outline" size="lg" asChild>
               <a href={channelData.data.qq_group_link} target="_blank" rel="noopener noreferrer">
                 {t('community.qq_group')}
-              </a>
-            </Button>
-          )}
-          {channelData?.data?.zsxq && (
-            <Button variant="outline" size="lg" asChild>
-              <a href={channelData.data.zsxq} target="_blank" rel="noopener noreferrer">
-                {t('community.zsxq')}
               </a>
             </Button>
           )}

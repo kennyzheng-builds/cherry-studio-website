@@ -77,7 +77,7 @@ Platform detection is handled by [src/utils/systemDetection.ts](src/utils/system
 
 ### Data Fetching
 
-Community channel data (QQ groups, WeChat QR codes, ZSXQ) is fetched from:
+Community channel data (QQ groups and WeChat QR codes) is fetched from:
 
 - Base URL: `https://data1.cherry-ai.com`
 - API function: `fetchChannelData()` in [src/assets/js/data.ts](src/assets/js/data.ts)

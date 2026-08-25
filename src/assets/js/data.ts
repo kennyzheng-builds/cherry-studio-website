@@ -5,7 +5,6 @@ interface ChannelResponse {
     wechat_qr_code1: string
     wechat_qr_code2: string
     wechat_qr_code3: string
-    zsxq: string
   }
 }
 
